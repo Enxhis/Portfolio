@@ -68,7 +68,7 @@
 
 .copyright p {
     text-align: center;
-    margin: 15px 0px;
+    /* margin: 15px 0px; */
     display: block;
 }
 
@@ -81,9 +81,9 @@
 }
 
 .footer-container .menu li a {
-    margin-top: 10px;
+    /* margin-top: 10px; */
     color: #D7D9D9;
-    padding: 10px;
+    /* padding: 10px; */
     text-decoration: none;
 }
 
@@ -519,7 +519,9 @@ a.quicklink {
     width: 100%;
     position: relative;
 }
-
+#title{
+    color: rgb(196, 185, 185);
+}
 .MultiCarousel .MultiCarousel-inner {
     transition: 1s ease all;
     float: left;
