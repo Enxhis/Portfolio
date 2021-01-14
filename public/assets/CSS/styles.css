@@ -3,6 +3,9 @@
     background-image: url("../Images/background-image.jpg");
 }
 
+/* NAV STYLE */
+/* ================================================================== */
+
 .nav-link {
     color: #D7D9D9;
     font-family: 'Potta One', cursive;
@@ -19,8 +22,6 @@
     background-color: rgba(0, 0, 0, 0.4);
     color: #D7D9D9;
     font-family: 'Potta One', cursive;
-    /* font-weight: bold; */
-    /* border: 3px solid #f1f1f1; */
     position: relative;
     top: 50%;
     left: 50%;
@@ -52,7 +53,6 @@
 }
 
 .card-title {
-    /* font-weight: bold; */
     font-size: 25px;
     margin: 10px;
     font-family: 'Potta One', cursive;
@@ -64,7 +64,6 @@
 
 .card-text {
     font-family: 'Roboto Slab', serif;
-
 }
 
 /* FOOTER STYLE */
@@ -91,7 +90,6 @@
     margin-top: 2rem;
     position: relative;
     padding: 10px;
-    /* border: 3px solid #f1f1f1; */
 }
 
 .footer-container .menu li a {
@@ -100,7 +98,6 @@
     padding: 10px;
     text-decoration: none;
     font-size: 20px;
-    /* font-family: 'Roboto Slab', serif; */
 }
 
 .footer-container .menu li a:hover {
@@ -114,7 +111,6 @@
 .fa.fa-yahoo {
     color: #D7D9D9;
     font-size: 20px;
-    font-family: 'Roboto Slab', serif;
     padding: 10px;
 }
 
@@ -126,7 +122,7 @@
 }
 
 
-/* TESTIMONIALS STYLE HERE */
+/* TESTIMONIALS STYLE */
 /* ================================================================== */
 
 .fa-spin {
@@ -340,8 +336,13 @@
 }
 
 /* ================================================================== */
-/* ========= PORTFOLIO STYLING =======================================*/
-/* ===================== Education styling ===========================    */
+/* = PORTFOLIO STYLING                                              = */
+/* ================================================================== */
+
+
+/* Education STYLE */
+/* ================================================================== */
+
 #home_quicklinks {
     padding: 20px 0;
     text-align: center;
@@ -393,7 +394,6 @@ a.quicklink .ql_caption p {
     padding: 0px;
     text-transform: uppercase;
     font-size: 14px;
-    /* line-height: 1.46em; */
     color: #D7D9D9;
 }
 
@@ -404,7 +404,6 @@ a.quicklink.link1 .ql_top {
 a.quicklink.link1 .ql_bottom {
     border-top-color: #A3ABD9;
 }
-
 
 .ql_top {
     bottom: 173px;
@@ -531,7 +530,8 @@ a.quicklink {
     background: inherit;
 }
 
-/* ===================== Projects styling ===========================    */
+/* Projects STYLE */
+/* ================================================================== */
 .MultiCarousel {
     float: left;
     overflow: hidden;
