@@ -27,7 +27,7 @@ This is a portfolio website, where is included a short biography accompanied wit
 
 ## Links
   * Deployed link in GitHub Pages: https://enxhis.github.io/Portfolio/
-  * GitHub repository link:        
+  * GitHub repository link:        https://github.com/Enxhis/Portfolio
 
 ## Contribution
   * Enxhi Salaj
