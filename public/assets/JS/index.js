@@ -1,11 +1,8 @@
 //============================================================================
-//
+// Added functionality to the index.html page
 //============================================================================
-
 (function ($) {
-
     "use strict";
-
 
     //Hide Loading Box (Preloader)
     function handlePreloader() {
@@ -13,7 +10,6 @@
             $('.preloader').delay(200).fadeOut(500);
         }
     }
-
 
     //Update Header Style and Scroll to Top
     function headerStyle() {
@@ -31,8 +27,8 @@
         }
     }
 
+    // call headerStyle function
     headerStyle();
-
 
     //Submenu Dropdown Toggle
     if ($('.main-header li.dropdown ul').length) {
@@ -102,7 +98,6 @@
         });
     }
 
-
     //Fact Counter + Text Count
     if ($('.count-box').length) {
         $('.count-box').appear(function () {
@@ -128,10 +123,8 @@
                     }
                 });
             }
-
         }, { accY: 0 });
     }
-
 
     //Accordion Box
     if ($('.accordion-box').length) {
@@ -156,7 +149,6 @@
         });
     }
 
-
     //Tabs Box
     if ($('.tabs-box').length) {
         $('.tabs-box .tab-buttons .tab-btn').on('click', function (e) {
@@ -175,7 +167,6 @@
             }
         });
     }
-
 
     //Default Masonary
     function defaultMasonry() {
@@ -197,7 +188,6 @@
             });
 
             winDow.on('resize', function () {
-
                 $container.isotope({
                     itemSelector: '.masonry-item',
                     animationOptions: {
@@ -227,27 +217,6 @@
         });
     }
 
-    //Contact Form Validation
-    if ($('#contact-form').length) {
-        $('#contact-form').validate({
-            rules: {
-                username: {
-                    required: true
-                },
-                email: {
-                    required: true,
-                    email: true
-                },
-                phone: {
-                    required: true
-                },
-                message: {
-                    required: true
-                }
-            }
-        });
-    }
-
 
     // Scroll to a Specific Div
     if ($('.scroll-to-target').length) {
@@ -257,7 +226,6 @@
             $('html, body').animate({
                 scrollTop: $(target).offset().top
             }, 1500);
-
         });
     }
 
@@ -286,26 +254,9 @@
         });
     }
 
-
-    // Elements Animation
-    if ($('.wow').length) {
-        var wow = new WOW(
-            {
-                boxClass: 'wow',      // animated element css class (default is wow)
-                animateClass: 'animated', // animation css class (default is animated)
-                offset: 0,          // distance to the element when triggering the animation (default is 0)
-                mobile: true,       // trigger animations on mobile devices (default is true)
-                live: true       // act on asynchronously loaded content (default is true)
-            }
-        );
-        wow.init();
-    }
-
-
     /* ==========================================================================
        When document is Scrollig, do
        ========================================================================== */
-
     $(window).on('scroll', function () {
         headerStyle();
     });
@@ -313,7 +264,6 @@
     /* ==========================================================================
        When document is loading, do
        ========================================================================== */
-
     $(window).on('load', function () {
         handlePreloader();
         defaultMasonry();

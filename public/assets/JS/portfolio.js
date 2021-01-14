@@ -1,3 +1,6 @@
+//============================================================================
+// Added functionality to the portfolio.html page
+//============================================================================
 $(document).ready(function () {
     var itemsMainDiv = ('.MultiCarousel');
     var itemsDiv = ('.MultiCarousel-inner');
@@ -13,14 +16,11 @@ $(document).ready(function () {
 
     ResCarouselSize();
 
-
-
-
     $(window).resize(function () {
         ResCarouselSize();
     });
 
-    //this function define the size of the items
+    //this function defines the size of the items
     function ResCarouselSize() {
         var incno = 0;
         var dataItems = ("data-items");
@@ -65,8 +65,8 @@ $(document).ready(function () {
         });
     }
 
-
     //this function used to move the items
+    //using buttons left & right
     function ResCarousel(e, el, s) {
         var leftBtn = ('.leftLst');
         var rightBtn = ('.rightLst');
